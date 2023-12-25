@@ -1,15 +1,16 @@
 # 蓝云的网站
 欢迎来到蓝云的网站~ awa
+<br>粉丝群：643342555
 
 # 蓝云的软件
 一些我制作的软件~
-
+<br>QQ群：808347189
+   
 ## 蓝云工具箱
 <p align="center">
  <img width="100px" src="./蓝云工具箱logo.png" align="center" alt="蓝云工具箱" />
  <h2 align="center">蓝云工具箱</h2>
  <p align="center">一款好用的工具箱 awa</p>
-   <p align="center">QQ群：808347189</p>
  <p align="center">版本：4.7 大小：297MB 更新日期：2023-12-19</p>
   <p align="center">系统要求:Win7+ 64位</p>
  </p>
