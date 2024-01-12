@@ -7,7 +7,7 @@
    
 ## 蓝云工具箱
 <p align="center">
- <img width="100px" src="./蓝云工具箱logo.png" align="center" alt="蓝云工具箱" />
+ <img width="130px" src="./蓝云工具箱logo.png" align="center" alt="蓝云工具箱" />
  <h2 align="center">蓝云工具箱</h2>
  <p align="center">一款好用的工具箱 awa</p>
  <p align="center">版本：4.7 大小：297MB 更新日期：2023-12-19</p>
