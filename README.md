@@ -11,7 +11,7 @@
  <h2 align="center">蓝云工具箱</h2>
  <p align="center">一款好用的工具箱</p>
  <p align="center">版本：4.7 大小：297MB 更新日期：2023-12-19</p>
-  <p align="center">蓝云工具箱 5.1 2024-01-09 发布
+  <p align="center">蓝云工具箱 5.1 2024-02-09 发布
   <p align="center">系统要求:Win7+ 64位</p>
  </p>
 <p align="center">
