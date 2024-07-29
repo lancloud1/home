@@ -3,14 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>蓝云的网站</title>
+  <title>蓝云和小伙伴们的科技网站</title>
+  <link rel="icon" href="./img/icon.png" sizes="16x16">
   <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
 </head>
 <body>
-
-  <div class="mdui-appbar">
+  <style>
+    #myBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+    }
+    .center {
+    margin: auto;
+    border: 5px solid #00ADEF;
+    border-radius: 5px;
+}
+a:link {
+			color:rgb(255, 255, 255);
+			text-decoration:none;
+		}
+		a:visited {
+			color:rgb(255, 255, 255);
+			text-decoration:none;
+		}
+		a:hover {
+			color:rgb(255, 255, 255);
+			text-decoration:none;
+		}
+		a:active {
+			color:rgb(255, 255, 255);
+			text-decoration:none;
+		}
+    </style>
+    </head>
+    <body class="mdui-appbar-with-toolbar mdui-appbar-with-tab">
+    
+      <button class="mdui-btn mdui-btn-icon mdui-color-blue-700 mdui-ripple" onclick="topFunction()" id="myBtn" title="回顶部"><i class="mdui-icon material-icons">arrow_upward</i></button>
+    
+    <script>
+    // 当网页向下滑动 40px 出现"返回顶部" 按钮
+    window.onscroll = function() {scrollFunction()};
+     
+    function scrollFunction() {console.log(121);
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+     
+    // 点击按钮，返回顶部
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+  <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-blue-600">
-      <a href="javascript:;" class="mdui-typo-title">蓝云的网站</a>
+      <a href="javascript:;" class="mdui-typo-title">欢迎来到蓝云和小伙伴们的网站呀~</a>
       <div class="mdui-toolbar-spacer"></div>
     </div>
     <div class="mdui-tab mdui-color-blue-700" mdui-tab>
@@ -22,37 +73,206 @@
         <i class="mdui-icon material-icons">build</i>
         <label>蓝云工具箱</label>
       </a>
+      <a href="#tab3" class="mdui-ripple mdui-ripple-white">
+        <i class="mdui-icon material-icons">error</i>
+        <label>蓝屏模拟器</label>
+      </a>
+      <a href="#tab4" class="mdui-ripple mdui-ripple-white">
+        <i class="mdui-icon material-icons">error</i>
+        <label>蓝屏模拟器（LTS）</label>
+      </a>
+      <a href="#tab5" class="mdui-ripple mdui-ripple-white">
+        <i class="mdui-icon material-icons">build</i>
+        <label>大柚子PE</label>
+      </a>
+      <a href="#tab6" class="mdui-ripple mdui-ripple-white">
+        <i class="mdui-icon material-icons">info</i>
+        <label>关于</label>
+      </a>
     </div>
   </div>
 
   <div class="mdui-container-fluid">
     <div id="tab1">
-  <br><p align="center"><img width="200px" src="https://picshack.net/ib/Wgm674sW28.png" align="center" alt="蓝云工具箱" />
-<br><br>嗷呜~ 欢迎来到蓝云的网站~ awa
-<br>QQ群：643342555
-
-    </div>
+    <br><br><p align="center"><img width="200px" src="./img/Welcome.png" align="center" alt="蓝云工具箱" />
+    <br><br>嗷呜~，欢迎来到蓝云和万物村小伙伴们的网站，awa~
+    <br>Windows 交流群：602901509
+    <br>我们的村子总群之一（可以交流美食哦）：720490870
+    <br><br>
+    <div class="mdui-divider"></div>
+    <br>
+    <p align="center">桌面 Windows 版本全球市场份额
+    <div class="center" id="desktop-windows_version-ww-monthly-202406-202406" width="600" height="400" style="width:600px; height: 400px;"></div><!-- You may change the values of width and height above to resize the chart --><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?desktop-windows_version-ww-monthly-202406-202406&chartWidth=600"></script>
+    <br><p align="center">桌面 Windows 版本中国市场份额</p>
+    <div class="center" id="desktop-windows_version-CN-monthly-202406-202406" width="600" height="400" style="width:600px; height: 400px;"></div><!-- You may change the values of width and height above to resize the chart --><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?desktop-windows_version-CN-monthly-202406-202406&chartWidth=600"></script>
+    <br></div>
     <div id="tab2">
-<p align="center">
- <br><img width="130px" src="https://picshack.net/ib/xlarRjSnve.png" align="center" alt="蓝云工具箱" />
- <h2 align="center">蓝云工具箱</h2>
- <p align="center">一款好用的工具箱</p>
- <p align="center">版本：5.4.0.540 大小：581MB 更新日期：2023-02-10</p>
-  <p align="center">系统要求:Win7+ 64位</p>
- </p>
-<p align="center">
-  <br><img width="600px" src="https://picshack.net/ib/BFS555nVbW.png" align="center" alt="蓝云工具箱" />
+      <p align="center">
+        <br><br><img width="130px" src="https://s21.ax1x.com/2024/03/16/pF2UvW9.png" align="center" alt="蓝云工具箱" />
+        <h2 align="center">蓝云工具箱</h2>
+        <p align="center">一款好用的工具箱</p>
+        <p align="center">版本：5.6.0.560 大小：433MB 更新日期：2023-04-27</p>
+         <p align="center">系统要求:Windows7及以上</p>
+         <p align="center"><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-700" mdui-dialog="{target: '#toolbox-down'}">立即下载</button> <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-700"><a href="https://www.123pan.com/s/GLTtVv-gkLjH.html" target="_blank">立即下载 ISO 文件</a></button></p>
+        </p>
+        <div class="mdui-dialog" id="toolbox-down">
+          <div class="mdui-dialog-content">
+            <div class="mdui-dialog-title">下载链接</div>
+              https://www.123pan.com/s/GLTtVv-BnejH.html
+              <br>https://pan.huang1111.cn/s/EvElFb
+              <br>https://www.alipan.com/s/7Pxhhbvh1U7
+          </div>
+          <div class="mdui-dialog-actions">
+            <button class="mdui-btn mdui-ripple" mdui-dialog-close>确定</button>
+          </div>
+        </div>
+       
+        <h2 align="center"></h2>
+        
 
- <h2 align="center"></h2>
- 
-<br><h2 align="center">下载地址</h2>
- <p align="center">https://www.123pan.com/s/GLTtVv-BnejH.html</p>
- <p align="center">https://pan.huang1111.cn/s/EvElFb</p>
- <p align="center">https://www.alipan.com/s/7Pxhhbvh1U7</p>
-  <h2 align="center"></h2>
+      <br><div class="mdui-appbar">
+        <div class="mdui-tab mdui-color-blue-700" mdui-tab>
+          <a href="#example3-tab2-1" class="mdui-ripple mdui-ripple-white">截图</a>
+          <a href="#example3-tab2-2" class="mdui-ripple mdui-ripple-white">下载地址</a>
+          <a href="#example3-tab2-3" class="mdui-ripple mdui-ripple-white">电脑要求</a>
+        </div>
+      </div>
+      <div class="mdui-container-fluid">
+        <div id="example3-tab2-1">
+          <p align="center">
+            <br><img width="600px" src="./img/蓝云工具箱_1.png" align="center" alt="蓝云工具箱" />
+            <br><br><img width="600px" src="./img/蓝云工具箱_2.png" align="center" alt="蓝云工具箱" />
+            <br><br><img width="600px" src="./img/蓝云工具箱_3.png" align="center" alt="蓝云工具箱" /><br><br>
+        </div>
+        <div id="example3-tab2-2">
+          <br>https://www.123pan.com/s/GLTtVv-BnejH.html
+          <br>https://pan.huang1111.cn/s/EvElFb
+          <br>https://www.alipan.com/s/7Pxhhbvh1U7
+          <br><br>
+        </div>
+        <div id="example3-tab2-3">
+          <br>Windows 7 64位 以上系统（部分工具不支持 Win 7）
+            <br>需安装（解压）工具箱的所有文件
+            <br>显示器：推荐 1280×720 以上分辨率，最低 1024×768 分辨率
+            <br>CPU：All CPU
+            <br>硬盘：≥445MB 空间（运行其中的工具需预留C盘100MB左右和工具所在盘空间。）
+            <br><br>
+        </div>
     </div>
   </div>
+    <div id="tab4">
+      <p align="center">
+        <p align="center">
+          <br><br><img width="130px" src="https://s21.ax1x.com/2024/04/04/pFbBAKI.png" align="center" alt="蓝屏模拟器" />
+          <h2 align="center">蓝屏模拟器（LTS）</h2>
+          <p align="center">模拟蓝屏画面</p>
+          <p align="center">系统:Win2000+ 版本：3.4.3 大小：1.54MB 更新日期：2024-04-10</p>
+           <p align="center"><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-700">立即下载</button> <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-700">更新日志</button></p>
+          </p>
+         
+          <h2 align="center"></h2>
+          
+  
+        <br><div class="mdui-appbar">
+          <div class="mdui-tab mdui-color-blue-700" mdui-tab>
+            <a href="#example3-tab4-1" class="mdui-ripple mdui-ripple-white">截图</a>
+            <a href="#example3-tab4-2" class="mdui-ripple mdui-ripple-white">下载地址</a>
+            <a href="#example3-tab4-3" class="mdui-ripple mdui-ripple-white">电脑要求</a>
+          </div>
+        </div>
+        <div class="mdui-container-fluid">
+          <div id="example3-tab4-1">
+            <p align="center">
+              <br><img width="600px" src="./img/蓝屏模拟器（LTS）.png" align="center" alt="蓝屏模拟器" />
+          </div>
+          <div id="example3-tab4-2">
+            <br>https://www.123pan.com/s/GLTtVv-BnejH.html
+            <br>https://pan.huang1111.cn/s/EvElFb
+            <br>https://www.alipan.com/s/7Pxhhbvh1U7
+            <br><br>
+          </div>
+          <div id="example3-tab4-3">
+            <br>- 系统：Windows 2000 以上系统
+              <br>- 显示器：推荐 1024×768 以上分辨率
+              <br>- CPU：All CPU
+              <br>- 硬盘：≥1.6MB 空间
+              <br><br>
+          </div>
+      </div>
+  </div>
+  <div id="tab5">
+    <p align="center">
+      <p align="center">
+        <br><br><img width="130px" src="./img/大柚子PE logo.png" align="center" alt="蓝屏模拟器" />
+        <h2 align="center">大柚子PE</h2>
+        <p align="center">模拟蓝屏</p>
+        <p align="center">版本：2.2 大小：1MB 更新日期：2023-10-03</p>
+        <p align="center"><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-700"><a href="https://www.123pan.com/s/GLTtVv-gkLjH.html" target="_blank">立即下载 ISO 文件</a></button> <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue-700"><a href="https://www.123pan.com/s/GLTtVv-gkLjH.html" target="_blank">更新日志</a></button></p>        </p>
+       
+        <h2 align="center"></h2>
+        
 
+      <br><div class="mdui-appbar">
+        <div class="mdui-tab mdui-color-blue-700" mdui-tab>
+          <a href="#example3-tab5-1" class="mdui-ripple mdui-ripple-white">系统截图</a>
+          <a href="#example3-tab5-2" class="mdui-ripple mdui-ripple-white">下载地址</a>
+          <a href="#example3-tab5-3" class="mdui-ripple mdui-ripple-white">电脑要求</a>
+        </div>
+      </div>
+      <div class="mdui-container-fluid">
+        <div id="example3-tab5-1">
+          <p align="center">
+            <br><img width="600px" src="https://s21.ax1x.com/2024/03/23/pFhczIH.png" align="center" alt="蓝云工具箱" />
+            <br><br><img width="600px" src="https://s21.ax1x.com/2024/03/23/pFhg9JA.png" align="center" alt="蓝云工具箱" />
+            <br><br><img width="600px" src="https://s21.ax1x.com/2024/03/23/pFhgpid.png" align="center" alt="蓝云工具箱" />
+        </div>
+        <div id="example3-tab5-2">
+          <br>https://www.123pan.com/s/GLTtVv-BnejH.html
+          <br>https://pan.huang1111.cn/s/EvElFb
+          <br>https://www.alipan.com/s/7Pxhhbvh1U7
+          <br><br>
+        </div>
+        <div id="example3-tab5-3">
+          <br>- 系统：Windows 2000 以上系统
+            <br>- 显示器：推荐 1024×768 以上分辨率
+            <br>- CPU：All CPU
+            <br>- 硬盘：≥1.5MB 空间
+            <br><br>
+        </div>
+    </div>
+</div>
+  <div id="tab6">
+        <br><br>感谢 <a href="https://mdui.org/">MDUI</a> 提供网站样式，和 <a href="https://yun316.net/">灰狼云空间</a> 提供虚拟主机。
+        <h2>关于我们</h2>
+          <div class="mdui-chip">
+            <img class="mdui-chip-icon" src="./img/蓝云.jpg"/>
+            <span class="mdui-chip-title">蓝云</span>
+          </div>
+        <h2></h2>我喜欢IT技术，喜欢 Windows XP ~ 10 系统~<h2></h2>
+        <h2>小震</h2> 
+        <h2></h2>我喜欢 Windows，Furry 和发布科技类的视频。<h2></h2>
+        <div class="mdui-chip">
+          <img class="mdui-chip-icon" src="./img/橘仔善提.jpg"/>
+          <span class="mdui-chip-title">橘仔善提</span>
+        </div>
+        <h2></h2>我喜欢交朋友，晒太阳，还有涩涩~ <h2></h2>
+        <div class="mdui-chip">
+          <img class="mdui-chip-icon" src="./img/龟仔菩提.jpg"/>
+          <span class="mdui-chip-title">龟仔菩提</span>
+        </div>
+        <h2></h2>我喜欢打电动，还有涩涩~ <h2></h2>
+        </p>
+       
+        <h2 align="center"></h2>
+
+        </div>
+    </div>
+</div>
+  <div class="mdui-appbar">
+    <div class="mdui-toolbar mdui-color-blue-600">
+      <a href="javascript:;" class="mdui-typo-title">Copyright © 2018-2024 蓝云 All rights reserved.</a>
+      <div class="mdui-toolbar-spacer"></div>
+    </div>
   <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 </body>
 </html>
